@@ -1,0 +1,60 @@
+/*Meu primeiro  arquivo CSS*/
+/*Tags*/
+/* remover as margens padrões*/
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+     background-color: black;
+}
+header{
+     /* altera a cor da letra */
+     color: #FFFFFF;
+     /* altera a cor do fundo */
+     background-color: #363636;
+     /* altera fonte da letra */
+     font-family: Helvetica;
+     /* tamanho da altura */
+     height: 60px;
+     padding: 20px;
+}
+
+div{
+     /*tamanho mínimo da altura */
+     min-height: 200px;
+     font-family: arial;
+}
+footer{
+     color: #FFFFFF;
+     background-color: #363636;
+     font-size: 10px;
+     height: 65px;
+     /* Por causa do "float" */
+     clear: both;
+     text-align: center;
+     padding: 10px 0px 0px 0px
+}
+/*IDs*/
+#div_esquerda{
+     color: #006400;
+     background-color: #A9A9A9;
+     width: 60%;
+     /* Propriedade que coloca a esquerda
+        pelo fato dela sobrepor a div que fica em baixo
+        colocar o "clear: both;", na que ficaria sobreposta
+
+      */
+      float: left;
+}
+#div_direita{
+     background-color: #4F4F4F;
+     width: 40%;
+     /* Propriedade que coloca a esquerda*/
+     float: right;
+}
+/*Class*/
+.container{
+     width: 950px;
+     margin: 0 auto;
+}
